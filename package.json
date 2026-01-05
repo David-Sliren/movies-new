@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/montserrat": "^5.2.8",
+    "@fontsource/bebas-neue": "^5.2.7",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-query": "^5.90.15",
     "@tanstack/react-query-devtools": "^5.91.2",
+    "lucide-react": "^0.562.0",
     "motion": "^12.23.26",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
