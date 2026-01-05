@@ -7,7 +7,7 @@ import "@fontsource/bebas-neue";
 import "@fontsource-variable/montserrat";
 
 import Card from "./components/Card";
-import Presentation from "./components/Presentation";
+import Presentation from "./components/Sections/Presentation";
 
 function App() {
   const [count, setCount] = useState(0);
