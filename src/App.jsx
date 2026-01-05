@@ -8,14 +8,16 @@ import "@fontsource-variable/montserrat";
 
 import Card from "./components/Card";
 import Presentation from "./components/Sections/Presentation";
+import Information from "./components/Sections/Information";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <main className="bg-zinc-800 flex flex-col gap-12 w-dvw h-dvh">
+      <main className="bg-zinc-800 flex flex-col gap-12 w-full h-dvh">
         <Presentation />
+        <Information />
       </main>
     </>
   );

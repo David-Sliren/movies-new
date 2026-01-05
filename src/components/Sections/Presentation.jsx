@@ -6,7 +6,7 @@ import ImgBackGround from "../ImgBackGround";
 
 function Presentation() {
   return (
-    <section className="relative z-0 grid grid-cols-4 gap-6 bg-amber-200 w-dvw h-dvh px-6 xl:grid-cols-12">
+    <section className="relative z-0 grid grid-cols-4 gap-6 bg-amber-200 w-full min-h-dvh px-6 xl:grid-cols-12">
       <ImgBackGround image={Avenger} />
       <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-black/20 to-black from-0% to-60% md:to-100% -z-1"></div>
 
