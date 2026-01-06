@@ -1,5 +1,4 @@
-import React from "react";
-import Avenger from "/src/assets/img/Avengers.webp";
+import Avenger from "../../assets/img/Avengers.webp";
 import { ChevronsDown } from "lucide-react";
 import { motion } from "motion/react";
 import ImgBackGround from "../ImgBackGround";

@@ -1,6 +1,6 @@
 import React from "react";
 import ImgBackGround from "../ImgBackGround";
-import Merlina from "/src/assets/img/merlina.webp";
+import Merlina from "../../assets/img/merlina.webp";
 import ShadowGradient from "../ShadowGradient";
 import AlternateText from "../AlternateText";
 import GeneralContent from "../GeneralContent";

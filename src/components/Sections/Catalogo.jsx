@@ -1,6 +1,6 @@
 import React from "react";
 import GeneralContent from "../GeneralContent";
-import Zootopia from "/src/assets/img/zootopia.webp";
+import Zootopia from "../../assets/img/zootopia.webp";
 import CardCatalogo from "../CardCatalogo";
 
 function Catalogo() {
