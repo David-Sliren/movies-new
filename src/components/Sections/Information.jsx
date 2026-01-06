@@ -10,9 +10,9 @@ function Information() {
       <ImgBackGround image={Merlina} moveImg="object-[-880px]" />
       <ShadowGradient clases="from-0% to-70%" />
       <AlternateText
-        clasesP="top-135 md:top-50"
+        clasesP="top-135 md:top-50 md:scale-85 lg:scale-100"
         clasesH1="font-montserrat text-4xl font-bold tracking-widest"
-        clasesH2="font-inter"
+        clasesH2="font-inter md:w-115 lg:w-140 xl:w-140"
       />
     </section>
   );

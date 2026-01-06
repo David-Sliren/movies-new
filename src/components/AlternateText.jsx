@@ -9,7 +9,7 @@ function AlternateText({ clasesP, clasesH1, clasesH2 }) {
         CONTENIDO DE CALIDAD
       </h1>
       <h2
-        className={`${clasesH2} text-white mt-5 -tracking-tight  text-shadow-md md:w-115 lg:w-140 xl:w-166 2xl:w-210`}
+        className={`${clasesH2} text-white mt-5 -tracking-tight  text-shadow-md `}
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
         ex ullam iste animi facilis sit minus temporibus repellat, cum nobis

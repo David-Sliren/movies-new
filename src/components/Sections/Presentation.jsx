@@ -32,8 +32,8 @@ function Presentation() {
       </motion.div>
       <AlternateText
         clasesP="top-125 md:top-10 scale-90"
-        clasesH1="font-bebas_nue text-8xl tracking-widest"
-        clasesH2="font-montserrat font-bold text-lg"
+        clasesH1="font-bebas_nue text-6xl md:text-8xl tracking-widest lg:w-150 xl:w-fit"
+        clasesH2="font-montserrat font-bold text-md md:w-115 lg:w-140 xl:w-166 2xl:w-210"
       />
     </section>
   );
