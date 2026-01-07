@@ -6,7 +6,7 @@ function ImgBackGround({ image, moveImg }) {
       <img
         src={image}
         alt="Imagen de los vengadores"
-        className={`${moveImg} w-full h-full object-cover md:object-top`}
+        className={`${moveImg} w-full h-full object-cover sm:object-right md:object-top`}
       />
     </div>
   );

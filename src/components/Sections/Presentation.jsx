@@ -31,7 +31,7 @@ function Presentation() {
         <ChevronsDown size={24} color="white" className="text-shadow-lg" />
       </motion.div>
       <AlternateText
-        clasesP="top-125 md:top-10 scale-90"
+        clasesP="top-100 sm:top-135 md:top-10 md:scale-90"
         clasesH1="font-bebas_nue text-6xl md:text-8xl tracking-widest lg:w-150 xl:w-fit"
         clasesH2="font-montserrat font-bold text-md md:w-115 lg:w-140 xl:w-166 2xl:w-210"
       />
