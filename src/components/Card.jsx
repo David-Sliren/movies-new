@@ -2,19 +2,23 @@ import React from "react";
 
 function Card({ imgUrl, imgAlt, textTitle = "movie the lay" }) {
   return (
-    <article className="bg-blue-400 flex flex-col items-center w-52 h-80 pb-2 rounded-2xl overflow-hidden">
-      <img
-        src={imgUrl}
-        alt={imgAlt}
-        className="w-full h-4/5 shrink object-cover object-center"
-      />
-      <p
-        className={`${
-          textTitle.length > 25 ? "text-start" : "text-center"
-        } h-1/5 shrink-0 text-lg w-full px-2 font-inter text-white font-bold`}
-      >
-        {textTitle}
-      </p>
+    <article className=" flex flex-col gap-1 aspect-[2/3]  items-center rounded-md overflow-hidden ">
+      <div className="w-full max-h-[75%] overflow-hidden">
+        <img
+          src={imgUrl}
+          alt={imgAlt}
+          className="w-full h-full object-cover object-top"
+        />
+      </div>
+      <div className="bg-zinc-600/60 flex justify-center items-center w-full h-[25%] max-h-full px-2">
+        <p
+          className={` text-center font-inter text-white font-bold ${
+            textTitle.length > 16 ? "text-sm" : "text-lg"
+          }`}
+        >
+          {textTitle}
+        </p>
+      </div>
     </article>
   );
 }
