@@ -19,9 +19,9 @@ function Catalogo() {
       </h1>
 
       <section className="row-end-2 col-span-4 grid grid-rows-4 gap-2 -mt-20 md:col-span-2 xl:col-span-6">
-        <CardCatalogo text="Recientes" />
-        <CardCatalogo text="Populares" />
-        <CardCatalogo text="Mas vistas" />
+        <CardCatalogo text="Recientes" router="/latest" />
+        <CardCatalogo text="Populares" router="/popular" />
+        <CardCatalogo text="Mas vistas" router="/trending" />
       </section>
     </GeneralContent>
   );
