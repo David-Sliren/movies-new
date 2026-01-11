@@ -1,8 +1,18 @@
 import React from "react";
+import { motion } from "motion/react";
 
 function Card({ imgUrl, imgAlt, textTitle = "movie the lay" }) {
   return (
-    <article className=" flex flex-col gap-1 aspect-[2/3]  items-center rounded-md overflow-hidden ">
+    <motion.article
+      initial={{ opacity: 0, scale: 0.6 }}
+      animate={{ opacity: 1, scale: 1 }}
+      whileHover={{
+        translateX: [2, 4, 2, 4, 2],
+        transition: { duration: 0.2, ease: "easeInOut" },
+      }}
+      whileTap={{ scale: 0.9 }}
+      className=" flex flex-col gap-1 aspect-[2/3]  items-center rounded-md overflow-hidden cursor-pointer"
+    >
       <div className="w-full max-h-[75%] overflow-hidden">
         <img
           src={imgUrl}
@@ -19,7 +29,7 @@ function Card({ imgUrl, imgAlt, textTitle = "movie the lay" }) {
           {textTitle}
         </p>
       </div>
-    </article>
+    </motion.article>
   );
 }
 
