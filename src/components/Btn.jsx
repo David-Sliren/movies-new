@@ -1,8 +1,10 @@
 import React from "react";
+import { motion } from "motion/react";
 
 function Btn({ text, onActive, isLeft }) {
   return (
-    <button
+    <motion.button
+      whileTap={{ scale: 0.8 }}
       onClick={onActive}
       className="relative flex justify-center gap-2 items-center shadow-xl bg-gray-500/25 backdrop-blur-2xl  border-zinc-900 before:absolute before:left-0 before:bg-zinc-900 before:h-[250%] before:w-0 before:-z-1 transition-transform before:duration-700 before:transition-discrete  hover:scale-105 hover:border-white  hover:before:w-full before:rounded-b-full  px-4 py-2 overflow-hidden border-2 rounded-full group cursor-pointer"
     >
@@ -23,7 +25,7 @@ function Btn({ text, onActive, isLeft }) {
           className="fill-gray-800 group-hover:fill-gray-800"
         ></path>
       </svg>
-    </button>
+    </motion.button>
   );
 }
 
