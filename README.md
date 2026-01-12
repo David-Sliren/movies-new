@@ -1,16 +1,32 @@
-# React + Vite
+# 🎬 Movie Catalog Pro - Next Gen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un explorador de cine de alto rendimiento construido con las tecnologías más modernas del ecosistema React. Esta aplicación consume la API de TMDB para ofrecer una experiencia de usuario fluida, animada y optimizada mediante gestión inteligente de caché.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+Explora el catálogo: [Movie Catalog Live](https://david-sliren.github.io/catalogos-de-peliculas-recientes/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características de Vanguardia
+- **React 19 Core:** Aprovechando las últimas mejoras de rendimiento y hooks del framework.
+- **TanStack Query (v5):** Gestión de estado asíncrono, almacenamiento en caché inteligente y carga optimizada de datos.
+- **Framer Motion:** Transiciones suaves de entrada y micro-interacciones en las tarjetas de películas.
+- **Tailwind CSS v4:** Estilizado moderno utilizando el motor de alto rendimiento basado en variables CSS.
 
-## React Compiler
+## 🛠️ Stack Tecnológico
+* **Framework:** React 19
+* **Fetching & Cache:** TanStack Query
+* **Animaciones:** Framer Motion
+* **Estilos:** Tailwind CSS v4
+* **Build Tool:** Vite
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## ⚙️ Configuración DX (VS Code)
+Para el mejor soporte de **Tailwind v4** y sugerencias automáticas:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```json
+{
+  "editor.quickSuggestions": { "strings": true },
+  "tailwindCSS.classFunctions": ["tw", "tw.style"],
+  "tailwindCSS.classAttributes": ["style", "className"],
+  "tailwindCSS.includeLanguages": {
+    "javascriptreact": "javascriptreact"
+  }
+}
