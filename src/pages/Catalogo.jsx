@@ -21,8 +21,6 @@ function Catalogo() {
     setNewPage((prev) => prev - 1);
   }
 
-  console.log(catalogo.data);
-
   return (
     <main className="grid grid-rows-[auto_1fr_auto] items-center bg-linear-to-r from-sky-500 min-h-dvh py-2 ">
       <header className=" px-6 flex justify-between items-center">
